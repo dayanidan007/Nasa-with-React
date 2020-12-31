@@ -1,3 +1,8 @@
+body{
+  background-color: rgb(235, 214, 214);
+  color:rgb(80, 71, 71)
+
+}
 .App {
   text-align: center;
 }
@@ -35,4 +40,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+.navBar{
+  background-color: rgb(133, 27, 133);
+  color: white;
+  height: 30px;
+  margin-top: 5px;
+}
+.menu-link{
+  border: black solid 0.5px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  margin: 5px 5px;
+  height: 30px;
+  width: 50px;
+  margin-top: 10px;
+}
+a{
+  text-decoration: none;
+  text-emphasis: none;
+  color: white;
+}
+.nasa-logo{
+  width: 90px;
+  height: 60px;
 }
